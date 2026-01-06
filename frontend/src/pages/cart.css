@@ -1,0 +1,137 @@
+.carCompass {
+ height: 29rem;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+
+}
+
+.carCompass h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #222;
+}
+
+.carrito-item {
+ height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  background: #fafafa;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+
+.carrito-item img {
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+
+}
+
+
+.nameBtn{
+display: flex;
+flex-direction: column;
+}
+
+.nameBtn h3 {
+  margin: 0 0 9px;
+  font-size: 20px;
+  color: #111;
+  padding: 5px;
+  margin-right: 10px;
+
+
+}
+
+.botones {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 25rem;
+ 
+}
+
+.botones p {
+  margin-right: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #444;
+}
+
+.botones button {
+  
+  border: solid red;
+  padding: 6px 12px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.25s ease;
+}  
+
+
+.botones .sumaBlue {
+    border: solid blue;
+}
+
+
+
+.botones button:hover {
+  transform: scale(1.1);
+}
+
+
+.cantidad {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0 8px;
+}
+
+
+
+.total h3 {
+  font-size: 25px;
+  font-weight: 3px;
+  color: #111;
+}
+
+.btn-pagar {
+  background: #18221c;
+  width: 7rem;
+  border: none;
+  padding: 8px;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.btn-pagar:hover {
+  transform: scale(1.05);
+}
+
+/* 📱 Responsive */
+@media (max-width: 600px) {
+  .carrito-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+
+}

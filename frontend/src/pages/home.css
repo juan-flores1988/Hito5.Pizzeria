@@ -1,0 +1,43 @@
+
+    
+    
+    .box-Home{
+    background-image: url(/public/Header.jpg);
+    background-size: cover;
+    height: 15rem;
+}
+
+
+.text{  
+text-align: center;
+padding: 30px;
+font-size: 15px;
+color: white;
+
+}  
+
+
+.text h1,h3{
+
+  color: white;
+  -webkit-text-stroke: 1px black;
+  font-size: 28px;
+  margin-top: 15px;
+ 
+
+}
+
+
+.home-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 15px;
+    color: rgb(59, 59, 59);
+}
+
+
+
+
+

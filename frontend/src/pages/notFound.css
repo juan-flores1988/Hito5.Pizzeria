@@ -1,0 +1,29 @@
+.notfound-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.notfound-img {
+  width: 350px;     
+  border-radius: 15PX;      
+  cursor: pointer;
+  animation: float 3s ease-in-out infinite;
+  transition: transform 0.3s ease;
+}
+
+
+.notfound-img:hover {
+  transform: scale(1.1);
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

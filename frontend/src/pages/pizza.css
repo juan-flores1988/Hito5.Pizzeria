@@ -1,0 +1,103 @@
+
+main {
+  width: 95%;
+  max-width: 270px;         
+  margin: 20px auto;
+  padding: 12px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+
+main img {
+  width: 100%;
+  max-height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+
+h2 {
+  margin: 6px 0;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+
+p {
+  margin: 4px 0;
+  font-size: 13px;
+  color: #444;
+}
+
+
+h3 {
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+
+ul {
+  padding: 0;
+  margin: 8px 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;      
+  gap: 3px;
+}
+
+ul li {
+  font-size: 12px;
+  background: #fff7df;
+  padding: 4px 8px;
+  border-radius: 6px;
+  box-shadow: 0px 1px 4px rgba(0,0,0,0.1);
+  width: 90%;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  gap: 5px;
+}
+
+
+.pizza-desc {
+  font-size: 12px;
+  line-height: 1.25;
+  color: #555;
+  text-align: center;      
+  margin: 10px 0;
+}
+
+
+button {
+  padding: 6px 14px;
+  background: #ffb703;
+  border: none;
+  border-radius: 8px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 6px;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background: #e89600;
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 8px;
+  font-size: 11px;
+}

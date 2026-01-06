@@ -1,0 +1,40 @@
+/* --- CONTENEDOR DE TODAS LAS TARJETAS --- */
+.home-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  padding: 15px;
+}
+
+/* --- TARJETA INDIVIDUAL --- */
+.productos img {
+  width: 10PX;
+  max-width: 140PX;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 0 auto;
+  display: block;
+}
+
+
+/* --- IMAGEN DE CADA TARJETA --- */
+.productos img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 3px 4px 5px rgba(0,0,0,0.25);
+}
+
+ 
+.productos h4, h5, h2{
+  text-align: center;
+}
+
+
+.precio button{
+  width: 75px;
+  margin: 3px;
+}

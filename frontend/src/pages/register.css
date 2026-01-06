@@ -1,0 +1,79 @@
+/* Asegurar que html y body ocupen todo el alto */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f4f8; /* color suave de fondo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Formulario */
+.formulario {
+  background: #ffffff;
+  padding: 70px 40px 50px 50px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  width: 350px;
+  max-width: 90%; /* que no se salga en pantallas pequeñas */
+  margin-top: 3px;;
+}
+
+/* Títulos de los campos */
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Inputs */
+.form-group input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #4f46e5; /* color morado intenso */
+  box-shadow: 0 0 5px rgba(79,70,229,0.5);
+}
+
+/* Botón */
+.btn-primary {
+  width: 100%;
+  padding: 12px;
+  background: #4f46e5;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: #3730a3;
+  transform: translateY(-2px);
+}
+
+/* Mensajes de éxito y error */
+p {
+  font-weight: 500;
+  text-align: center;
+  font-size: 14px;
+}
+
+p.exito {
+  color: #16a34a;
+}
+
+p.error {
+  color: #dc2626;
+}
